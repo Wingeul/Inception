@@ -5,14 +5,14 @@ volumes:
                 name: wordpress
                 driver: local
                 driver_opts:
-                        device: /Users/pgrataco/Desktop/my_inception/srcs/wordpress
+                        device: ./srcs/wordpress
                         o: bind
                         type: none
         mariadb:
                 name: mariadb
                 driver: local
                 driver_opts:
-                        device: /Users/pgrataco/Desktop/my_inception/srcs/mariadb
+                        device: ./srcs/mariadb
                         o: bind
                         type: none
 
